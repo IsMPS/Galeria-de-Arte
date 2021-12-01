@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Galería de arte - Opinión</title>
+</head>
+<body>
+	<div id="Cabecera">
+		<a href="todo.html" id="letracabecera">
+			<img id="img1" src="imagenes/logo.png" alt="logo" width="9%">
+			Galería de arte
+		</a>
+	</div>
+	<div id="Contenido1">
+		<span id="contenidotext"><br>Agradecería que nos pusieras una valoración <3</span>
+	</div>
+	<div id="buscador2">
+		<p id="letrasbusca">Buscador:</p>
+		<span id="letrasbusca">Dibujos:</span><br>
+  		<a href="todo.html" id="opcionesbusca" onMouseover="this.style.color='blanchedalmond'" onMouseout="this.style.color='black'">Todo</a><br>
+  		<a href="tradicional.html" id="opcionesbusca" onMouseover="this.style.color='blanchedalmond'" onMouseout="this.style.color='black'">Tradicional</a><br>
+  		<a href="digital.html" id="opcionesbusca" onMouseover="this.style.color='blanchedalmond'" onMouseout="this.style.color='black'">Digital</a><br><br>
+  		<a href="term.html" id="opcionesbusca" onMouseover="this.style.color='blanchedalmond'" onMouseout="this.style.color='black'">Información</a><br>
+  		<a href="formop.html" id="opcionesbuscax">Danos tu opinión</a>
+  		<br><br><br><br>
+  		<table id="calen">
+			<tr>
+				<th>L</th>
+				<th>M</th>
+				<th>X</th>
+				<th>J</th>
+				<th>V</th>
+				<th>S</th>
+				<th>D</th>
+			</tr>
+			<tr>
+			    <td></td>
+			    <td></td>
+			    <td>1</td>
+			    <td>2</td>
+			    <td>3</td>
+			    <td>4</td>
+			    <td>5</td>
+			</tr>
+			<tr>
+   				<td>6</td>
+			    <td>7</td>
+			    <td>8</td>
+			    <td>9</td>
+			    <td>10</td>
+			    <td>11</td>
+			    <td>12</td>
+			</tr>
+			<tr>
+   				<td>13</td>
+			    <td>14</td>
+			    <td>15</td>
+			    <td>16</td>
+			    <td>17</td>
+			    <td>18</td>
+			    <td>19</td>
+			</tr>
+			<tr>
+   				<td>20</td>
+			    <td>21</td>
+			    <td>22</td>
+			    <td>23</td>
+			    <td>24</td>
+			    <td>25</td>
+			    <td>26</td>
+			</tr>
+			<tr>
+   				<td>27</td>
+			    <td>28</td>
+			    <td>29</td>
+			    <td>30</td>
+			    <td>31</td>
+			    <td></td>
+			    <td></td>
+			</tr>
+		</table>
+	</div>
+	<div id="galeria">
+		<p id="nombre">Danos tu opinión: </p>
+		<form action="/action_page.php" target="_self" id="rad">
+			<label for="star">&nbsp;✰&nbsp;&nbsp;★&nbsp;&nbsp;★&nbsp;&nbsp;★&nbsp;&nbsp;★&nbsp;&nbsp;★</label><br>
+  			<input type="range" name="star" min="0" max="5" value="0"><br><br>
+			
+  			<label for="name">Nombre: </label><br>
+  			<input type="text" name="name" value="Nombre" pattern="[A-ZÑÁÉÍÓÚ][a-zzñáéíúó]*(\s[A-ZÑÁÉÍÓÚ][a-zzñáéíúó]*)*"><br>
+
+			<label for="name">Edad: </label><br>
+  			<input type="text" name="name" value="Nombre" pattern="[0-9]*"><br>
+
+  			<label for="lname">Email: </label><br>
+ 			<input type="email" name="email" value="correo@gmail.com" pattern="[a-zA-Z0-9]+([._][a-zA-Z0-9]*)*@[a-z]*\.[a-z][{2, 3}"><br><br>
+
+  			<textarea name="message" rows="15" cols="115">¿Quieres dejarnos un comentario?</textarea><br>
+  			<input type="submit" value="Enviar">
+		</form>
+		<img id="img2" src="imagenes/gracias.gif" alt="GIF" width="23%">
+	</div>
+</body>
+</html>
