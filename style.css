@@ -2,14 +2,102 @@ html, body {
 	height: 100%;
 	background: #3B362B;
 }
-#Cabecera {
-	height: 10%;
+@media only screen and (max-width: 576px) {
+    #Cabecera {
+		height: 10%;
+		float: left;
+		width: 100%;
+		padding: 1%;
+		font-size: 3rem;
+		background: #3B362B;
+		text-align: center;
+	}
+	#espacio {
+		margin: 1%;
+		color: #3B362B;
+		font-size: 0.65rem;
+	}
+	#img1{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		height: 56%;
+	}
+	#imgr{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		width: 90%;
+	}
+#img3 {
+	float: right;
+	margin-right: 4%;
+	margin-bottom: 1%;
+}
+#img2 {
 	float: left;
-	width: 100%;
-	padding: 1%;
-	font-size: 76px;
-	background: #3B362B;
+	margin-right: 4%;
+	margin-bottom: 1%;
+	width: 20%;
+}
+#Contenido2 {
+	height: 40%;
+	float: right;
+	width: 43%;
+	background: #E0D0A6;
 	text-align: center;
+	border:2px solid #3B362B;
+	border-radius: 7px;
+}
+}
+
+@media only screen and (min-width: 576px) {
+    #Cabecera {
+		height: 13%;
+		float: left;
+		width: 100%;
+		padding: 1%;
+		font-size: 5rem;
+		background: #3B362B;
+		text-align: center;
+	}
+	#espacio {
+		margin: 1%;
+		color: #3B362B;
+		font-size: 0.75rem;
+	}
+	#img1{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		width: 45%;
+	}
+	#imgr{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		width: 79%;
+	}
+	#img3 {
+		float: right;
+		margin-right: 4%;
+		margin-bottom: 1%;
+	}
+	#img2 {
+		float: left;
+		margin-right: 4%;
+		margin-bottom: 1%;
+		width: 9%;
+	}
+	#Contenido2 {
+	height: 40%;
+	float: right;
+	width: 21.7%;
+	background: #E0D0A6;
+	text-align: center;
+	border:2px solid #3B362B;
+	border-radius: 7px;
+}
 }
 #letracabecera {
 	color: white;
@@ -33,35 +121,6 @@ html, body {
 	text-align: left;
 	margin-left: 5.5%;
 	margin-right: 1%;
-}
-#img1{
-	float: left;
-	margin-left: 4%;
-	margin-bottom: 1%;
-}
-#img3 {
-	float: right;
-	margin-right: 4%;
-	margin-bottom: 1%;
-}
-#img2 {
-	float: center;
-	margin-right: 4%;
-	margin-bottom: 1%;
-}
-#Contenido2 {
-	height: 40%;
-	float: right;
-	width: 21.7%;
-	background: #E0D0A6;
-	text-align: center;
-	border:2px solid #3B362B;
-	border-radius: 7px;
-}
-#espacio {
-	margin: 1%;
-	color: #3B362B;
-	font-size: 15px;
 }
 a:link {
 	text-decoration: none;
