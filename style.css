@@ -2,7 +2,8 @@ html, body {
 	height: 100%;
 	background: #3B362B;
 }
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width: 768px) {
     #Cabecera {
 		height: 10%;
 		float: left;
@@ -11,6 +12,7 @@ html, body {
 		font-size: 3rem;
 		background: #3B362B;
 		text-align: center;
+		margin-right: 0.7%;
 	}
 	#espacio {
 		margin: 1%;
@@ -29,34 +31,60 @@ html, body {
 		margin-bottom: 1%;
 		width: 90%;
 	}
-#img3 {
-	float: right;
-	margin-right: 4%;
-	margin-bottom: 1%;
-}
-#img2 {
-	float: left;
-	margin-right: 4%;
-	margin-bottom: 1%;
-	width: 20%;
-}
-#Contenido2 {
-	height: 40%;
-	float: right;
-	width: 43%;
-	background: #E0D0A6;
-	text-align: center;
-	border:2px solid #3B362B;
-	border-radius: 7px;
-}
+	#img3 {
+		float: right;
+		margin-right: 4%;
+		margin-bottom: 1%;
+	}
+	#img2 {
+		float: left;
+		margin-right: 4%;
+		margin-bottom: 1%;
+		width: 20%;
+	}
+	#Contenido2 {
+		height: 40%;
+		float: left;
+		width: 48.8%;
+		background: #E0D0A6;
+		text-align: center;
+		border:2px solid #3B362B;
+		border-radius: 7px;
+	}
+	#marginao {
+		width: 74.6%;
+		height: 100%;
+		float: right;
+	}
+	#Contenido1 {
+		height: 10%;
+		float: right;
+		width: 73.7%;
+		background: blanchedalmond;
+		text-align: center;
+		border-radius: 7px;
+		margin-right: 0.35%;
+	}
+	#buscador {
+		background: #7A715B;
+		width: 24%;
+		height: 90%;
+		float: left;
+		text-align: left;
+		border-radius: 7px;
+	}
+	#calen{
+		font-size: 0.8rem;
+		text-align: center;
+		margin-left: 1%;
+	}
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) and (max-width: 1175px) {
     #Cabecera {
 		height: 13%;
 		float: left;
 		width: 100%;
-		padding: 1%;
 		font-size: 5rem;
 		background: #3B362B;
 		text-align: center;
@@ -87,28 +115,123 @@ html, body {
 		float: left;
 		margin-right: 4%;
 		margin-bottom: 1%;
-		width: 9%;
+		width: 15%;
 	}
 	#Contenido2 {
-	height: 40%;
-	float: right;
-	width: 21.7%;
-	background: #E0D0A6;
-	text-align: center;
-	border:2px solid #3B362B;
-	border-radius: 7px;
+		height: 40%;
+		float: left;
+		width: 31%;
+		background: #E0D0A6;
+		text-align: center;
+		border:2px solid #3B362B;
+		border-radius: 7px;
+		margin-left: 1%;
+	}
+	#marginao {
+		width: 79%;
+		height: 100%;
+		float: right;
+	}
+	#Contenido1 {
+		height: 10%;
+		float: right;
+		width: 78%;
+		background: blanchedalmond;
+		text-align: center;
+		border-radius: 7px;
+		margin-right: 0.1%;
+	}
+	#buscador {
+		background: #7A715B;
+		width: 17%;
+		height: 90%;
+		float: left;
+		text-align: left;
+		border-radius: 7px;
+	}
+	#calen{
+		font-size: 1rem;
+		text-align: right;
+		margin-left: 7%;
+	}
 }
+
+@media only screen and (min-width: 1175px) {
+    #Cabecera {
+		height: 13%;
+		float: left;
+		width: 100%;
+		font-size: 5rem;
+		background: #3B362B;
+		text-align: center;
+	}
+	#espacio {
+		margin: 1%;
+		color: #3B362B;
+		font-size: 0.75rem;
+	}
+	#img1{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		width: 45%;
+	}
+	#imgr{
+		float: center;
+		margin-left: 4%;
+		margin-bottom: 1%;
+		width: 79%;
+	}
+	#img3 {
+		float: right;
+		margin-right: 4%;
+		margin-bottom: 1%;
+	}
+	#img2 {
+		float: left;
+		margin-right: 4%;
+		margin-bottom: 1%;
+		width: 10%;
+	}
+	#Contenido2 {
+		height: 44%;
+		float: left;
+		width: 24.6%;
+		background: #E0D0A6;
+		text-align: center;
+		border:2px solid #3B362B;
+		border-radius: 7px;
+	}
+	#marginao {
+		width: 87%;
+		height: 100%;
+		float: right;
+	}
+	#Contenido1 {
+		height: 10%;
+		float: right;
+		width: 87%;
+		background: blanchedalmond;
+		text-align: center;
+		border-radius: 7px;
+		margin-right: 0.1%;
+	}
+	#buscador {
+		background: #7A715B;
+		width: 11%;
+		height: 90%;
+		float: left;
+		text-align: left;
+		border-radius: 7px;
+	}
+	#calen{
+		text-align: right;
+		margin-left: 7%;
+	}
 }
+
 #letracabecera {
 	color: white;
-}
-#Contenido1 {
-	height: 10%;
-	float: right;
-	width: 87.7%;
-	background: blanchedalmond;
-	text-align: center;
-	border-radius: 7px;
 }
 #contenidotext {
 	margin: 1%;
@@ -146,14 +269,6 @@ a:visited {
 	color: blanchedalmond;
 	margin-left: 7%;
 }
-#buscador {
-	background: #7A715B;
-	width: 11%;
-	height: 90%;
-	float: left;
-	text-align: left;
-	border-radius: 7px;
-}
 #buscador2 {
 	background: #7A715B;
 	width: 11%;
@@ -161,10 +276,6 @@ a:visited {
 	float: left;
 	text-align: left;
 	border-radius: 7px;
-}
-#calen{
-	text-align: right;
-	margin-left: 7%;
 }
 #rad{
 	text-align: left;
@@ -200,5 +311,5 @@ a:visited {
 }
 @font-face{
 	font-family: Cotton Butter;
-	src: url('Cotton Butter.ttf');
+	src: url('Tipografias/Cotton Butter.ttf');
 }
